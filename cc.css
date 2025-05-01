@@ -1,0 +1,221 @@
+@media screen and (max-width: 400px) and (-webkit-min-device-pixel-ratio: 1) {
+  .invitation {
+    padding: 40px; /* Mengurangi padding agar tidak terlalu besar */
+    max-width: 70%; /* Agar lebih fleksibel di layar kecil */
+  }
+
+  .overlay h1 {
+    font-size: 2.3rem; /* Mengurangi ukuran teks */
+    margin-top: -2rem;
+    margin-bottom: 30px;
+  }
+
+  .overlay h2 {
+    font-size: 1.5rem;
+  }
+
+  .overlay p {
+    font-size: 1.2em; /* Mengurangi ukuran teks untuk keterbacaan lebih baik */
+  }
+
+  .highlight {
+    font-size: 1.1rem;
+  }
+
+  .button {
+    padding: 10px 20px; /* Mengurangi ukuran tombol */
+    font-size: 16px;
+  }
+  .isi {
+    background-color: #b76e79;
+    width: 84vw; /* 100% dari lebar viewport */
+    min-height: 200vh;
+    /* tinggi minimum satu layar penuh */
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 8rem 2rem;
+    /* box-sizing: border-box; */
+  }
+
+  .isi h2 {
+    margin-top: 175rem;
+    font-size: 2.4rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .isi h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  /* .pembuka,
+    .doa,
+    .penutup,
+    .amplop {
+      padding: 25px;
+      text-align: center;
+      font-size: 1rem;
+    } */
+
+  .pembuka h3 {
+    font-size: 1.5rem; /* Mengecil dari 3rem */
+    margin-bottom: 20px;
+  }
+
+  .penutup h3,
+  .aamplop h3 {
+    font-size: 2rem; /* Mengecil dari 3rem */
+    margin-bottom: 20px;
+  }
+
+  .pembuka p,
+  .doa p,
+  .penutup p,
+  .amplop p {
+    font-size: 1em; /* Sedikit lebih kecil untuk mobile */
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .pembuka h4,
+  .penutup h4 {
+    font-size: 1.1rem; /* Mengecil dari 1.3rem */
+  }
+
+  .bunga-kiri {
+    margin-top: 155rem;
+    left: 0;
+    /* position: absolute; */
+    width: 180px;
+    z-index: 0;
+    transform: rotate(180deg);
+  }
+
+  .bunga-kanan {
+    right: 0;
+    bottom: 7px;
+    position: absolute;
+    width: 180px;
+    z-index: 0;
+    margin-bottom: -2rem;
+  }
+
+  .daun {
+    max-width: 50px;
+    transform: rotate(60deg);
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .daun1 {
+    max-width: 50px;
+    transform: rotate(60deg);
+    margin-top: 1.2rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .doa h3 {
+    font-size: 1rem; /* Ukuran font lebih kecil */
+    text-align: center; /* Tengahin kalau perlu */
+  }
+
+  .informasi h2 {
+    font-size: 2rem; /* Mengecil dari 3rem */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .card-resepsi {
+    width: 70%; /* Biar fleksibel sesuai layar */
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  .card-body {
+    flex-direction: column; /* Stack item jadi vertikal */
+    gap: 20px; /* Spasi antar item */
+    padding: 15px;
+  }
+
+  .card-item .icon {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .card-item .text {
+    font-size: 15px;
+  }
+
+  .card-footer {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .footer-undangan {
+    padding: 15px 8px;
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .footer-undangan p {
+    margin: 1px 0;
+  }
+
+  .footer-undangan i {
+    font-size: 1rem;
+    margin-right: 4px;
+  }
+
+  .music-btn {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; /* awalnya disembunyikan */
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 10px 8px;
+  }
+
+  .bank-box {
+    padding: 10px;
+    margin: 8px 0;
+  }
+
+  .copy-button {
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .open-button {
+    width: 50%;
+    font-size: 17px;
+    padding: 10px 16px;
+    margin: 0.5rem auto;
+    display: block;
+  }
+
+  .bank-logo {
+    height: 22px;
+  }
+
+  .close {
+    top: 8px;
+    right: 12px;
+    font-size: 22px;
+  }
+}
